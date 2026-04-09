@@ -1,0 +1,79 @@
+timestamp,label,width_mm,height_mm,is_reference
+2026-04-08 23:29:50,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:29:50,Object 1,93.3,59.4,False
+2026-04-08 23:34:57,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:35:49,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:36:54,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:38:02,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:38:16,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:38:16,Object 1,86.6,55.7,False
+2026-04-08 23:38:24,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:38:24,Object 1,86.2,55.5,False
+2026-04-08 23:39:23,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:39:23,Object 1,65.7,42.4,False
+2026-04-08 23:46:56,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:46:56,Object 1,109.2,58.5,False
+2026-04-08 23:47:13,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:47:13,Object 1,56.8,26.1,False
+2026-04-08 23:47:44,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:47:44,Object 1,81.6,50.8,False
+2026-04-08 23:47:46,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:47:46,Object 1,81.6,50.7,False
+2026-04-08 23:47:55,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:47:55,Object 1,110.9,29.5,False
+2026-04-08 23:48:02,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:48:02,Object 1,90.5,40.8,False
+2026-04-08 23:48:42,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:48:42,Object 1,103.9,96.2,False
+2026-04-08 23:48:55,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:48:55,Object 1,116.7,39.0,False
+2026-04-08 23:49:16,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:49:16,Object 1,55.6,32.6,False
+2026-04-08 23:49:16,Object 2,136.3,15.5,False
+2026-04-08 23:49:17,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:49:17,Object 1,58.8,34.5,False
+2026-04-08 23:49:17,Object 2,137.4,15.6,False
+2026-04-08 23:49:37,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:49:37,Object 1,58.0,29.9,False
+2026-04-08 23:49:37,Object 2,155.5,22.0,False
+2026-04-08 23:49:37,Object 3,104.1,94.4,False
+2026-04-08 23:49:38,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:49:38,Object 1,60.2,26.4,False
+2026-04-08 23:49:38,Object 2,152.3,18.1,False
+2026-04-08 23:49:38,Object 3,103.7,90.0,False
+2026-04-08 23:49:38,Object 4,26.9,23.6,False
+2026-04-08 23:49:52,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:49:52,Object 1,116.6,92.0,False
+2026-04-08 23:50:02,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:50:02,Object 1,73.2,59.8,False
+2026-04-08 23:50:18,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:50:18,Object 1,84.4,54.0,False
+2026-04-08 23:50:27,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:50:27,Object 1,131.1,128.0,False
+2026-04-08 23:51:06,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:51:06,Object 1,121.4,114.3,False
+2026-04-08 23:51:06,Object 2,82.9,22.3,False
+2026-04-08 23:51:38,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:51:38,Object 1,106.6,105.2,False
+2026-04-08 23:51:59,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:51:59,Object 1,46.1,39.1,False
+2026-04-08 23:52:37,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:52:37,Object 1,159.5,81.1,False
+2026-04-08 23:52:39,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:52:39,Object 1,155.8,79.2,False
+2026-04-08 23:53:29,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:53:29,Object 1,70.6,64.5,False
+2026-04-08 23:53:29,Object 2,65.2,52.8,False
+2026-04-08 23:53:30,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:53:30,Object 1,70.4,64.4,False
+2026-04-08 23:53:30,Object 2,64.5,52.6,False
+2026-04-08 23:55:16,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:55:16,Object 1,164.7,92.6,False
+2026-04-08 23:55:16,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:55:16,Object 1,164.6,92.7,False
+2026-04-08 23:57:02,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:57:02,Object 1,25.7,24.5,False
+2026-04-08 23:57:21,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:57:21,Object 1,62.9,61.9,False
+2026-04-08 23:57:42,ID Card (Reference),85.6,53.98,True
+2026-04-08 23:57:42,Object 1,111.2,103.4,False

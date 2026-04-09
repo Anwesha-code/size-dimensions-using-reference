@@ -1,0 +1,5 @@
+# Object Measurer — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+opencv-contrib-python   # full OpenCV build (includes aruco, extra modules)
+numpy                   # matrix/array math — OpenCV depends on this anyway
