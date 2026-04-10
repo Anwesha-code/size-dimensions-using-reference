@@ -1,15 +1,14 @@
-# Object Size Measurement  📏
-> Turn your laptop webcam into a real-time digital ruler using an ID card as reference.
+# Object Size Measurement 
+Using your webcam to a real-time digital ruler using any ID card as a reference.
 
----
 
 ## How it works
 
-1. You place your **ID card on the left side** of the camera's view
+1. Place your **ID card on the left side** of the camera's view
 2. The script detects the card by its known aspect ratio (85.6 × 54 mm)
 3. It computes a **Pixels-Per-Millimetre (PPM)** ratio from the card's pixel width
 4. Every other shape in the frame is measured using that ratio
-5. Dimensions are overlaid live on the video feed
+5. Dimensions are shown live on the video feed
 
 ---
 
@@ -27,8 +26,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
 ## Controls
 
 | Key | Action |
@@ -37,50 +34,43 @@ python main.py
 | `P` | Toggle birds-eye perspective correction (needs A4 paper flat in frame) |
 | `Q` | Quit |
 
----
 
 ## Output files
 
 ```
 output/
-├── screenshots/
-│   └── measurement_20250618_143022.png   ← annotated frame
-└── logs/
-    └── measurements_2025-06-18.csv       ← one row per detected object
+ - screenshots/
+   - measurement_20250618_143022.png  
+ -  logs/
+    - measurements_2025-06-18.csv       
 ```
 
 The timestamp in the screenshot filename matches the rows in the CSV so you
 can trace every measurement back to its source image.
 
----
 
 ## Tips for best results
 
-- **Lighting**: Even, diffuse light (no harsh shadows). Natural daylight is ideal.
-- **Background**: A solid-colour surface — dark desk or white paper — gives the clearest edges.
-- **Card placement**: Put the ID card on the **left side** of the frame, flat and unobstructed.
-- **Perspective mode**: Place an A4 sheet flat as a mat, lay card + objects on top, press `P`.
-- **Camera distance**: About 30–50 cm overhead is ideal for objects roughly palm-sized.
-
----
+- **Lighting**: Even, diffused light (no harsh shadows should be made). Natural daylight is ideal.
+- **Background**: A solid-colour surface gives the clearest edges.
+- **Card placement**: Put the ID card on the **left side** of the frame laying flat. 
+- **Perspective mode**: Place an A4 sheet flat as a mat, put card + objects on top, press `P`.
 
 ## Project structure
 
 ```
 object_measurer/
-├── main.py                  ← entry point & main loop
-├── config.py                ← all tuneable constants
-├── requirements.txt
-├── measurer/
-│   ├── detector.py          ← contour detection + PPM maths
-│   ├── perspective.py       ← birds-eye warp transform
-│   └── visualizer.py        ← bounding boxes, labels, HUD
-└── utils/
-    ├── logger.py             ← CSV measurement logging
-    └── saver.py              ← screenshot saving
+- main.py                  ← entry point & main loop
+- config.py                ← all tuneable constants
+- requirements.txt
+- measurer/
+   - detector.py          ← contour detection + PPM maths
+   - perspective.py       ← birds-eye warp transform
+   - visualizer.py        ← bounding boxes, labels, HUD
+- utils/
+    - logger.py             ← CSV measurement logging
+    - saver.py              ← screenshot saving
 ```
-
----
 
 ## Tweaking detection
 
