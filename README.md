@@ -12,7 +12,7 @@ Using your webcam to a real-time digital ruler using any ID card as a reference.
 
 ---
 
-## Setup (one-time)
+## Setup (run one-time)
 
 ```bash
 # 1. Create a virtual environment (recommended)
@@ -82,3 +82,11 @@ Edit **`config.py`** if the detection is too noisy or missing objects:
 | `CANNY_THRESH1/2` | Lower values detect more (faint) edges |
 | `GAUSSIAN_BLUR` | Larger kernel = more smoothing (try `(9,9)` on a textured surface) |
 | `REF_ASPECT_TOLERANCE` | Increase if card isn't being detected at a steep angle |
+
+Project by: 
+
+Anwesha Singh
+
+B.Tech Computer Science Engineering
+
+Manipal University Jaipur
