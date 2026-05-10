@@ -10,10 +10,8 @@ Using your webcam to a real-time digital ruler using any ID card as a reference.
 4. Every other shape in the frame is measured using that ratio
 5. Dimensions are shown live on the video feed
 
----
 
 ## Setup (run one-time)
-
 ```bash
 # 1. Create a virtual environment (recommended)
 python -m venv venv
@@ -27,7 +25,6 @@ python main.py
 ```
 
 ## Controls
-
 | Key | Action |
 |-----|--------|
 | `S` | Save annotated screenshot + append measurements to CSV log |
@@ -36,7 +33,6 @@ python main.py
 
 
 ## Output files
-
 ```
 output/
  - screenshots/
@@ -50,26 +46,24 @@ can trace every measurement back to its source image.
 
 
 ## Tips for best results
-
 - **Lighting**: Even, diffused light (no harsh shadows should be made). Natural daylight is ideal.
 - **Background**: A solid-colour surface gives the clearest edges.
 - **Card placement**: Put the ID card on the **left side** of the frame laying flat. 
 - **Perspective mode**: Place an A4 sheet flat as a mat, put card + objects on top, press `P`.
 
 ## Project structure
-
 ```
 object_measurer/
-- main.py                  ← entry point & main loop
-- config.py                ← all tuneable constants
+- main.py                  <- entry point & main loop
+- config.py                <- all tuneable constants
 - requirements.txt
 - measurer/
-   - detector.py          ← contour detection + PPM maths
-   - perspective.py       ← birds-eye warp transform
-   - visualizer.py        ← bounding boxes, labels, HUD
+   - detector.py          <- contour detection + PPM maths
+   - perspective.py       <- birds-eye warp transform
+   - visualizer.py        <- bounding boxes, labels, HUD
 - utils/
-    - logger.py             ← CSV measurement logging
-    - saver.py              ← screenshot saving
+    - logger.py             <- CSV measurement logging
+    - saver.py              <- screenshot saving
 ```
 
 ## Tweaking detection
