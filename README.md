@@ -77,10 +77,9 @@ Edit **`config.py`** if the detection is too noisy or missing objects:
 | `GAUSSIAN_BLUR` | Larger kernel = more smoothing (try `(9,9)` on a textured surface) |
 | `REF_ASPECT_TOLERANCE` | Increase if card isn't being detected at a steep angle |
 
-Project by: 
+# Author
 
-Anwesha Singh
-
-B.Tech Computer Science Engineering
-
-Manipal University Jaipur
+Anwesha Singh  
+B.Tech (Computer Science Engineering)  
+Manipal University Jaipur  
+ 
